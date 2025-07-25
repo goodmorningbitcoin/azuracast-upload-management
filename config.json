@@ -1,0 +1,40 @@
+{
+  "azuraCast": {
+    "host": "your-azuracast-domain.com",
+    "stationId": 1,
+    "defaultPlaylist": 1,
+    "apiKey": "your-api-key-here"
+  },
+  "shows": [
+    {
+      "rssUrl": "https://feeds.castos.com/example-podcast",
+      "maxEpisodes": 5,
+      "maxAgeDays": 30,
+      "playlistId": 1,
+      "enabled": true
+    },
+    {
+      "rssUrl": "https://anchor.fm/s/example123/podcast/rss",
+      "maxEpisodes": 3,
+      "maxAgeDays": 14,
+      "playlistId": 1,
+      "enabled": true
+    },
+    {
+      "rssUrl": "https://feeds.fountain.fm/ExampleFeed123",
+      "maxEpisodes": 10,
+      "maxAgeDays": 45,
+      "playlistId": 1,
+      "enabled": true
+    },
+    {
+      "rssUrl": "https://serve.podhome.fm/rss/example-feed-id",
+      "maxEpisodes": 2,
+      "maxAgeDays": 7,
+      "playlistId": 1,
+      "enabled": false
+    }
+  ],
+  "tempDir": "./temp",
+  "logFile": "./podcast-uploader.log"
+}
