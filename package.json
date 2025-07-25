@@ -1,0 +1,39 @@
+{
+  "name": "azuracast-upload-management",
+  "version": "1.0.0",
+  "description": "Automated podcast episode uploader and management system for AzuraCast radio stations",
+  "main": "podcast-uploader.js",
+  "scripts": {
+    "start": "node --max-old-space-size=4096 podcast-uploader.js",
+    "dev": "node podcast-uploader.js",
+    "test": "node --check podcast-uploader.js",
+    "lint": "node --check podcast-uploader.js"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0"
+  },
+  "keywords": [
+    "azuracast",
+    "podcast",
+    "radio",
+    "rss",
+    "automation",
+    "upload",
+    "management",
+    "bitcoin",
+    "goodmorningbitcoin"
+  ],
+  "author": "Good Morning Bitcoin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goodmorningbitcoin/azuracast-upload-management.git"
+  },
+  "bugs": {
+    "url": "https://github.com/goodmorningbitcoin/azuracast-upload-management/issues"
+  },
+  "homepage": "https://github.com/goodmorningbitcoin/azuracast-upload-management#readme"
+}
